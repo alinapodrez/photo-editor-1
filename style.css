@@ -1,0 +1,42 @@
+*{
+    user-select: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --base: #ffc600;
+    --spacing: 0px;
+    --blur: 0px;
+}
+
+img{
+    padding: var(--spacing);
+    background-color: var(--base);
+    filter: blur(var(--blur));
+}
+
+span{
+    color: var(--base);
+}
+body {
+    text-align: center;
+    background-color: #193546;
+    color: white;
+    font-size: 20px;
+}
+
+h2{
+    margin-top: 20px;
+}
+
+.controls {
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+}
+
+label {
+    margin-left: 40px;
+}
